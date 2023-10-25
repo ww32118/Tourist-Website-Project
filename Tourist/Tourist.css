@@ -1,0 +1,259 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.header {
+    background-color: #FFEFD3;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li a:hover {
+   color: #001B2E;
+}
+
+.hero {
+    background-color: rgba(0,0,0,0.6);
+    background-image: url('Images/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #FFC49B;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #001B2E;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFC49B;
+    color: black;
+}
+
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ADB6C4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.footer {
+    background-color: #FFEFD3;
+    color: #000;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer-social h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-social li {
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+}
+
+.footer-bottom a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-social h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000; 
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social li {
+    margin: 0 15px;
+}
+
+.footer-social a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #ADB6C4; 
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a img {
+    width: 20px;
+    height: 20px;
+    fill: #000; 
+}
+
+.footer-social a:hover {
+    background-color: #ADB6C4;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tourist.css">
+    <link rel="stylesheet" href="Tour.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100&display=swap" rel="stylesheet">
+    <title>Odyssey Wander - Explore the World</title>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+
+   <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+
+    <!-- Include Slick carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jssor-slider/28.0.0/jssor.slider.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="Images/Logo/svg/logo-color.svg" height="80px" width="80px"></div>
+            <ul class="nav-links">
+                <li><a href="Tourist.html">Home</a></li>
+                <li><a href="Destination.html">Destinations</a></li>
+                <li><a href="Tour.html">Tours</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="tr">
+            <div class="tr-content">
+                <h1>Tours</h1>
+            </div>
+        </section>
+        <br><br>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="Images/slider1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="Images/slider2.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="Images/slider3.jpg" alt="Slide 3"></div>
+            <div class="slide"><img src="Images/slider4.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="Images/slider5.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="Images/slider6.jpg" alt="Slide 3"></div>
+        </div>
+    </div>
+<br> <br>
+    <section class="booking-form">
+        <h2>Book Your Adventure</h2>
+        <form id="booking-form">
+            <label for="tour-select">Select a Tour:</label>
+        <select id="tour-select" name="tour">
+            <option value="mystical-mountains">Mystical Mountains</option>
+            <option value="coastal-escapes">Coastal Escapes</option>
+            <option value="cultural-odyssey">Cultural Odyssey</option>
+            <option value="tropical paradise">Tropical Paradise</option>
+            <option value="enchanted islands">Enchanted Islands</option>
+            <option value="soothing valley">Soothing Valley</option>
+        </select>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="participants">Number of Participants:</label>
+        <input type="number" id="participants" name="participants" min="1" required>
+
+        <label for="message">Additional Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Book Now</button>
+        </form>
+    </section>
+<br><br>
+<section class="tour">
+    <h2>Explore Our Tours</h2>
+    <div class="tour-cards">
+        <div class="tour-card">
+            <img src="Images/tour1.jpg" alt="Tour 1" class="tour-image">
+            <h3 class="tour-title">Mystical Mountains</h3>
+            <p>Embark on a journey to the mystical mountains and experience breathtaking views, serene landscapes, and invigorating treks. Explore hidden trails and discover the wonders of nature.</p>
+            <button class="tour-details-button" data-tour="1">View Details</button>
+        </div>
+        
+        <div class="tour-card">
+            <img src="Images/tour2.jpg" alt="Tour 2" class="tour-image">
+            <h3 class="tour-title">Coastal Escapes</h3>
+            <p>Unwind on pristine sandy shores and enjoy the rhythm of the waves. Immerse yourself in coastal cultures, indulge in delectable seafood, and create unforgettable beach memories.</p>
+            <button class="tour-details-button" data-tour="2">View Details</button>
+        </div>
+        
+        <div class="tour-card">
+            <img src="Images/tour3.jpg" alt="Tour 3" class="tour-image">
+            <h3 class="tour-title">Cultural Odyssey</h3>
+            <p>Embark on a cultural journey to discover ancient traditions, historic landmarks, and vibrant local communities. Immerse yourself in diverse cultures and enriching experiences.</p>
+            <button class="tour-details-button" data-tour="3">View Details</button>
+        </div>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Images/Logo/svg/logo-color.svg" height="80px" width="80px" alt="Odyssey Wander Logo">
+                </div>
+                
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="Tourist.html">Home</a></li>
+                        <li><a href="Tour.html">Tours</a></li>
+                        <li><a href="Destination.html">Destinations</a></li>
+                        <li><a href="About us.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li><a href="#"><img src="Images/Logo/facebook.svg" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="Images/Logo/square-x-twitter.svg" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="Images/Logo/instagram.svg" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="Images/Logo/linkedin.svg" alt="LinkedIn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Odyssey Wander. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </footer>
+      <script src="Tourist.js"></script>
+      <script src="Tour.js"></script> 
+    </body>
+    </html>

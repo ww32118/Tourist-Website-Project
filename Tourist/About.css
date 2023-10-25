@@ -1,0 +1,96 @@
+.abt {
+    background-color: rgba(0,0,0,0.6);
+    background-image: url('Images/about.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.abt-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #C8CED4;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.founder-details {
+    margin-bottom: 30px;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Add your existing CSS styles here */
+
+/* Styles for Team section */
+.team {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-member {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.team-member-image {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    padding: 80px 0;
+    text-align: center;
+    background-color:#DCE2E1;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    border: 1px solid #273043;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #273043;
+}
+
+.testimonial cite {
+    font-weight: bold;
+}

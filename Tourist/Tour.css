@@ -1,0 +1,123 @@
+.tr {
+    background-color: rgba(0,0,0,0.6);
+    background-image: url('Images/resort.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.tr-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.booking-form {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #EFF6EE;
+}
+
+.booking-form h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #A1A6BA;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#booking-form select,
+#booking-form input[type="text"],
+#booking-form input[type="email"],
+#booking-form input[type="tel"],
+#booking-form textarea {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#booking-form button[type="submit"] {
+    background-color: #273043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#booking-form button[type="submit"]:hover {
+    background-color: #273043;
+}
+
+.tour {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.tour h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.tour-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tour-card {
+    width: calc(33.33% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #DCE2E1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tour-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tour-title {
+    font-size: 18px;
+    margin: 10px 0;
+}

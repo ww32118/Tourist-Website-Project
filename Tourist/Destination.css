@@ -1,0 +1,96 @@
+.dest {
+    background-color: rgba(0,0,0,0.6);
+    background-image: url('Images/kool.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.dest-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destination-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination-card {
+    width: calc(33.33% - 20px);
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #EFF6EE;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.destination-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.destination-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.destination-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.destination {
+    background-color: #DCE2E1;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.destination h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.filter-button {
+    background-color: #273043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+    background-color: #F02D3A;
+}
+
+.filter-button[data-filter="all"] {
+    background-color: #DD0426;
+}
+
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+    }
+}
